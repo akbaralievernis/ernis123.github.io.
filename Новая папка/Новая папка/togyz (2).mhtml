@@ -1,0 +1,372 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/User/Downloads/Telegram%20Desktop/togyz%20(2).html
+Subject: 
+Date: Sat, 19 Oct 2024 22:10:16 +0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--wa1csM3UpiABJVpvm1Xu1oDg6QMLI1giTvb9dYCib9----"
+
+
+------MultipartBoundary--wa1csM3UpiABJVpvm1Xu1oDg6QMLI1giTvb9dYCib9----
+Content-Type: text/html
+Content-ID: <frame-167C48BF059C98F2302471BBC2325D9A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/User/Downloads/Telegram%20Desktop/togyz%20(2).html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><meta name=3D"color-scheme" content=3D"light dark"></head><body><=
+div class=3D"line-gutter-backdrop"></div><form autocomplete=3D"off"><label =
+class=3D"line-wrap-control">=D0=9F=D0=B5=D1=80=D0=B5=D0=BD=D0=BE=D1=81 =D0=
+=BF=D0=BE =D1=81=D0=BB=D0=BE=D0=B2=D0=B0=D0=BC<input type=3D"checkbox" aria=
+-label=3D"=D0=9F=D0=B5=D1=80=D0=B5=D0=BD=D0=BE=D1=81 =D0=BF=D0=BE =D1=81=D0=
+=BB=D0=BE=D0=B2=D0=B0=D0=BC"></label></form><table><tbody><tr><td class=3D"=
+line-number" value=3D"1"></td><td class=3D"line-content"><span class=3D"htm=
+l-doctype">&lt;!DOCTYPE html&gt;</span></td></tr><tr><td class=3D"line-numb=
+er" value=3D"2"></td><td class=3D"line-content"><span class=3D"html-tag">&l=
+t;html <span class=3D"html-attribute-name">lang</span>=3D"<span class=3D"ht=
+ml-attribute-value">ru</span>"&gt;</span></td></tr><tr><td class=3D"line-nu=
+mber" value=3D"3"></td><td class=3D"line-content"><span class=3D"html-tag">=
+&lt;head&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"4"></td=
+><td class=3D"line-content">    <span class=3D"html-tag">&lt;meta <span cla=
+ss=3D"html-attribute-name">charset</span>=3D"<span class=3D"html-attribute-=
+value">UTF-8</span>"&gt;</span></td></tr><tr><td class=3D"line-number" valu=
+e=3D"5"></td><td class=3D"line-content">    <span class=3D"html-tag">&lt;me=
+ta <span class=3D"html-attribute-name">name</span>=3D"<span class=3D"html-a=
+ttribute-value">viewport</span>" <span class=3D"html-attribute-name">conten=
+t</span>=3D"<span class=3D"html-attribute-value">width=3Ddevice-width, init=
+ial-scale=3D1.0</span>"&gt;</span></td></tr><tr><td class=3D"line-number" v=
+alue=3D"6"></td><td class=3D"line-content">    <span class=3D"html-tag">&lt=
+;title&gt;</span>=D0=A2=D0=BE=D0=B3=D1=83=D0=B7 =D0=9A=D0=BE=D1=80=D0=B3=D0=
+=BE=D0=BE=D0=BB<span class=3D"html-tag">&lt;/title&gt;</span></td></tr><tr>=
+<td class=3D"line-number" value=3D"7"></td><td class=3D"line-content">    <=
+span class=3D"html-tag">&lt;style&gt;</span></td></tr><tr><td class=3D"line=
+-number" value=3D"8"></td><td class=3D"line-content">        body {</td></t=
+r><tr><td class=3D"line-number" value=3D"9"></td><td class=3D"line-content"=
+>            font-family: Arial, sans-serif;</td></tr><tr><td class=3D"line=
+-number" value=3D"10"></td><td class=3D"line-content">            text-alig=
+n: center;</td></tr><tr><td class=3D"line-number" value=3D"11"></td><td cla=
+ss=3D"line-content">        }</td></tr><tr><td class=3D"line-number" value=
+=3D"12"></td><td class=3D"line-content">        .board {</td></tr><tr><td c=
+lass=3D"line-number" value=3D"13"></td><td class=3D"line-content">         =
+   display: grid;</td></tr><tr><td class=3D"line-number" value=3D"14"></td>=
+<td class=3D"line-content">            grid-template-columns: repeat(9, 60p=
+x);</td></tr><tr><td class=3D"line-number" value=3D"15"></td><td class=3D"l=
+ine-content">            gap: 10px;</td></tr><tr><td class=3D"line-number" =
+value=3D"16"></td><td class=3D"line-content">            justify-content: c=
+enter;</td></tr><tr><td class=3D"line-number" value=3D"17"></td><td class=
+=3D"line-content">            margin-bottom: 20px;</td></tr><tr><td class=
+=3D"line-number" value=3D"18"></td><td class=3D"line-content">        }</td=
+></tr><tr><td class=3D"line-number" value=3D"19"></td><td class=3D"line-con=
+tent">        .hole {</td></tr><tr><td class=3D"line-number" value=3D"20"><=
+/td><td class=3D"line-content">            width: 60px;</td></tr><tr><td cl=
+ass=3D"line-number" value=3D"21"></td><td class=3D"line-content">          =
+  height: 60px;</td></tr><tr><td class=3D"line-number" value=3D"22"></td><t=
+d class=3D"line-content">            background-color: #ddd;</td></tr><tr><=
+td class=3D"line-number" value=3D"23"></td><td class=3D"line-content">     =
+       display: flex;</td></tr><tr><td class=3D"line-number" value=3D"24"><=
+/td><td class=3D"line-content">            align-items: center;</td></tr><t=
+r><td class=3D"line-number" value=3D"25"></td><td class=3D"line-content">  =
+          justify-content: center;</td></tr><tr><td class=3D"line-number" v=
+alue=3D"26"></td><td class=3D"line-content">            border-radius: 50%;=
+</td></tr><tr><td class=3D"line-number" value=3D"27"></td><td class=3D"line=
+-content">            font-size: 16px;</td></tr><tr><td class=3D"line-numbe=
+r" value=3D"28"></td><td class=3D"line-content">            cursor: pointer=
+;</td></tr><tr><td class=3D"line-number" value=3D"29"></td><td class=3D"lin=
+e-content">            position: relative;</td></tr><tr><td class=3D"line-n=
+umber" value=3D"30"></td><td class=3D"line-content">        }</td></tr><tr>=
+<td class=3D"line-number" value=3D"31"></td><td class=3D"line-content">    =
+    .hole img {</td></tr><tr><td class=3D"line-number" value=3D"32"></td><t=
+d class=3D"line-content">            width: 40px;</td></tr><tr><td class=3D=
+"line-number" value=3D"33"></td><td class=3D"line-content">            heig=
+ht: 40px;</td></tr><tr><td class=3D"line-number" value=3D"34"></td><td clas=
+s=3D"line-content">        }</td></tr><tr><td class=3D"line-number" value=
+=3D"35"></td><td class=3D"line-content">        .scores {</td></tr><tr><td =
+class=3D"line-number" value=3D"36"></td><td class=3D"line-content">        =
+    margin-bottom: 20px;</td></tr><tr><td class=3D"line-number" value=3D"37=
+"></td><td class=3D"line-content">        }</td></tr><tr><td class=3D"line-=
+number" value=3D"38"></td><td class=3D"line-content">        .hole .stones =
+{</td></tr><tr><td class=3D"line-number" value=3D"39"></td><td class=3D"lin=
+e-content">            position: absolute;</td></tr><tr><td class=3D"line-n=
+umber" value=3D"40"></td><td class=3D"line-content">            bottom: 5px=
+;</td></tr><tr><td class=3D"line-number" value=3D"41"></td><td class=3D"lin=
+e-content">            right: 5px;</td></tr><tr><td class=3D"line-number" v=
+alue=3D"42"></td><td class=3D"line-content">            font-size: 12px;</t=
+d></tr><tr><td class=3D"line-number" value=3D"43"></td><td class=3D"line-co=
+ntent">            background-color: white;</td></tr><tr><td class=3D"line-=
+number" value=3D"44"></td><td class=3D"line-content">            border-rad=
+ius: 50%;</td></tr><tr><td class=3D"line-number" value=3D"45"></td><td clas=
+s=3D"line-content">            padding: 2px 5px;</td></tr><tr><td class=3D"=
+line-number" value=3D"46"></td><td class=3D"line-content">        }</td></t=
+r><tr><td class=3D"line-number" value=3D"47"></td><td class=3D"line-content=
+">    <span class=3D"html-tag">&lt;/style&gt;</span></td></tr><tr><td class=
+=3D"line-number" value=3D"48"></td><td class=3D"line-content"><span class=
+=3D"html-tag">&lt;/head&gt;</span></td></tr><tr><td class=3D"line-number" v=
+alue=3D"49"></td><td class=3D"line-content"><span class=3D"html-tag">&lt;bo=
+dy&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"50"></td><td =
+class=3D"line-content">    <span class=3D"html-tag">&lt;h1&gt;</span>=D0=A2=
+=D0=BE=D0=B3=D1=83=D0=B7 =D0=9A=D0=BE=D1=80=D0=B3=D0=BE=D0=BE=D0=BB<span cl=
+ass=3D"html-tag">&lt;/h1&gt;</span></td></tr><tr><td class=3D"line-number" =
+value=3D"51"></td><td class=3D"line-content">    <span class=3D"html-tag">&=
+lt;div <span class=3D"html-attribute-name">class</span>=3D"<span class=3D"h=
+tml-attribute-value">scores</span>"&gt;</span></td></tr><tr><td class=3D"li=
+ne-number" value=3D"52"></td><td class=3D"line-content">        <span class=
+=3D"html-tag">&lt;span <span class=3D"html-attribute-name">id</span>=3D"<sp=
+an class=3D"html-attribute-value">player1-score</span>"&gt;</span>=D0=9E=D1=
+=87=D0=BA=D0=B8 =D0=98=D0=B3=D1=80=D0=BE=D0=BA=D0=B0: 0<span class=3D"html-=
+tag">&lt;/span&gt;</span> | </td></tr><tr><td class=3D"line-number" value=
+=3D"53"></td><td class=3D"line-content">        <span class=3D"html-tag">&l=
+t;span <span class=3D"html-attribute-name">id</span>=3D"<span class=3D"html=
+-attribute-value">player2-score</span>"&gt;</span>=D0=9E=D1=87=D0=BA=D0=B8 =
+=D0=91=D0=BE=D1=82=D0=B0: 0<span class=3D"html-tag">&lt;/span&gt;</span></t=
+d></tr><tr><td class=3D"line-number" value=3D"54"></td><td class=3D"line-co=
+ntent">    <span class=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><td cl=
+ass=3D"line-number" value=3D"55"></td><td class=3D"line-content">    <span =
+class=3D"html-tag">&lt;div <span class=3D"html-attribute-name">id</span>=3D=
+"<span class=3D"html-attribute-value">board</span>" <span class=3D"html-att=
+ribute-name">class</span>=3D"<span class=3D"html-attribute-value">board</sp=
+an>"&gt;</span><span class=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><t=
+d class=3D"line-number" value=3D"56"></td><td class=3D"line-content">    <s=
+pan class=3D"html-tag">&lt;div&gt;</span></td></tr><tr><td class=3D"line-nu=
+mber" value=3D"57"></td><td class=3D"line-content">        <span class=3D"h=
+tml-tag">&lt;button <span class=3D"html-attribute-name">onclick</span>=3D"<=
+span class=3D"html-attribute-value">restartGame()</span>"&gt;</span>=D0=9D=
+=D0=B0=D1=87=D0=B0=D1=82=D1=8C =D0=B7=D0=B0=D0=BD=D0=BE=D0=B2=D0=BE<span cl=
+ass=3D"html-tag">&lt;/button&gt;</span></td></tr><tr><td class=3D"line-numb=
+er" value=3D"58"></td><td class=3D"line-content">    <span class=3D"html-ta=
+g">&lt;/div&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"59">=
+</td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-number"=
+ value=3D"60"></td><td class=3D"line-content">    <span class=3D"html-tag">=
+&lt;script&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"61"><=
+/td><td class=3D"line-content">        let board =3D [</td></tr><tr><td cla=
+ss=3D"line-number" value=3D"62"></td><td class=3D"line-content">           =
+ [9, 9, 9, 9, 9, 9, 9, 9, 9],  // =D0=9B=D1=83=D0=BD=D0=BA=D0=B8 =D0=B8=D0=
+=B3=D1=80=D0=BE=D0=BA=D0=B0</td></tr><tr><td class=3D"line-number" value=3D=
+"63"></td><td class=3D"line-content">            [9, 9, 9, 9, 9, 9, 9, 9, 9=
+]   // =D0=9B=D1=83=D0=BD=D0=BA=D0=B8 =D0=B1=D0=BE=D1=82=D0=B0</td></tr><tr=
+><td class=3D"line-number" value=3D"64"></td><td class=3D"line-content">   =
+     ];</td></tr><tr><td class=3D"line-number" value=3D"65"></td><td class=
+=3D"line-content">        let scores =3D [0, 0];</td></tr><tr><td class=3D"=
+line-number" value=3D"66"></td><td class=3D"line-content">        let curre=
+ntPlayer =3D 0;  // =D0=98=D0=B3=D1=80=D0=BE=D0=BA =D0=BD=D0=B0=D1=87=D0=B8=
+=D0=BD=D0=B0=D0=B5=D1=82</td></tr><tr><td class=3D"line-number" value=3D"67=
+"></td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-numbe=
+r" value=3D"68"></td><td class=3D"line-content">        function createBoar=
+d() {</td></tr><tr><td class=3D"line-number" value=3D"69"></td><td class=3D=
+"line-content">            const boardElement =3D document.getElementById('=
+board');</td></tr><tr><td class=3D"line-number" value=3D"70"></td><td class=
+=3D"line-content">            boardElement.innerHTML =3D '';  // =D0=9E=D1=
+=87=D0=B8=D1=81=D1=82=D0=B8=D1=82=D1=8C =D0=B4=D0=BE=D1=81=D0=BA=D1=83</td>=
+</tr><tr><td class=3D"line-number" value=3D"71"></td><td class=3D"line-cont=
+ent">            for (let i =3D 0; i &lt; 9; i++) {</td></tr><tr><td class=
+=3D"line-number" value=3D"72"></td><td class=3D"line-content">             =
+   // =D0=9B=D1=83=D0=BD=D0=BA=D0=B8 =D0=B1=D0=BE=D1=82=D0=B0 (=D0=B2 =D0=
+=B2=D0=B5=D1=80=D1=85=D0=BD=D0=B5=D0=B9 =D1=81=D1=82=D1=80=D0=BE=D0=BA=D0=
+=B5)</td></tr><tr><td class=3D"line-number" value=3D"73"></td><td class=3D"=
+line-content">                const hole2 =3D document.createElement('div')=
+;</td></tr><tr><td class=3D"line-number" value=3D"74"></td><td class=3D"lin=
+e-content">                hole2.className =3D 'hole';</td></tr><tr><td cla=
+ss=3D"line-number" value=3D"75"></td><td class=3D"line-content">           =
+     hole2.innerHTML =3D `&lt;img src=3D"https://upload.wikimedia.org/wikip=
+edia/commons/thumb/a/a1/Marble_red.png/600px-Marble_red.png" alt=3D"marble"=
+&gt;&lt;div class=3D"stones"&gt;${board[1][i]}&lt;/div&gt;`;</td></tr><tr><=
+td class=3D"line-number" value=3D"76"></td><td class=3D"line-content">     =
+           boardElement.appendChild(hole2);</td></tr><tr><td class=3D"line-=
+number" value=3D"77"></td><td class=3D"line-content">            }</td></tr=
+><tr><td class=3D"line-number" value=3D"78"></td><td class=3D"line-content"=
+>            for (let i =3D 0; i &lt; 9; i++) {</td></tr><tr><td class=3D"l=
+ine-number" value=3D"79"></td><td class=3D"line-content">                //=
+ =D0=9B=D1=83=D0=BD=D0=BA=D0=B8 =D0=B8=D0=B3=D1=80=D0=BE=D0=BA=D0=B0 (=D0=
+=B2 =D0=BD=D0=B8=D0=B6=D0=BD=D0=B5=D0=B9 =D1=81=D1=82=D1=80=D0=BE=D0=BA=D0=
+=B5)</td></tr><tr><td class=3D"line-number" value=3D"80"></td><td class=3D"=
+line-content">                const hole1 =3D document.createElement('div')=
+;</td></tr><tr><td class=3D"line-number" value=3D"81"></td><td class=3D"lin=
+e-content">                hole1.className =3D 'hole';</td></tr><tr><td cla=
+ss=3D"line-number" value=3D"82"></td><td class=3D"line-content">           =
+     hole1.innerHTML =3D `&lt;img src=3D"snapedit_1709554354175" alt=3D"mar=
+ble"&gt;&lt;div class=3D"stones"&gt;${board[0][i]}&lt;/div&gt;`;</td></tr><=
+tr><td class=3D"line-number" value=3D"83"></td><td class=3D"line-content"> =
+               hole1.onclick =3D () =3D&gt; makeMove(0, i);</td></tr><tr><t=
+d class=3D"line-number" value=3D"84"></td><td class=3D"line-content">      =
+          boardElement.appendChild(hole1);</td></tr><tr><td class=3D"line-n=
+umber" value=3D"85"></td><td class=3D"line-content">            }</td></tr>=
+<tr><td class=3D"line-number" value=3D"86"></td><td class=3D"line-content">=
+        }</td></tr><tr><td class=3D"line-number" value=3D"87"></td><td clas=
+s=3D"line-content"><br></td></tr><tr><td class=3D"line-number" value=3D"88"=
+></td><td class=3D"line-content">        function makeMove(player, holeInde=
+x) {</td></tr><tr><td class=3D"line-number" value=3D"89"></td><td class=3D"=
+line-content">            if (player !=3D=3D currentPlayer) {</td></tr><tr>=
+<td class=3D"line-number" value=3D"90"></td><td class=3D"line-content">    =
+            alert("=D0=A1=D0=B5=D0=B9=D1=87=D0=B0=D1=81 =D0=BD=D0=B5 =D0=B2=
+=D0=B0=D1=88 =D1=85=D0=BE=D0=B4!");</td></tr><tr><td class=3D"line-number" =
+value=3D"91"></td><td class=3D"line-content">                return;</td></=
+tr><tr><td class=3D"line-number" value=3D"92"></td><td class=3D"line-conten=
+t">            }</td></tr><tr><td class=3D"line-number" value=3D"93"></td><=
+td class=3D"line-content"><br></td></tr><tr><td class=3D"line-number" value=
+=3D"94"></td><td class=3D"line-content">            let stones =3D board[pl=
+ayer][holeIndex];</td></tr><tr><td class=3D"line-number" value=3D"95"></td>=
+<td class=3D"line-content">            if (stones =3D=3D=3D 0) {</td></tr><=
+tr><td class=3D"line-number" value=3D"96"></td><td class=3D"line-content"> =
+               alert("=D0=AD=D1=82=D0=B0 =D0=BB=D1=83=D0=BD=D0=BA=D0=B0 =D0=
+=BF=D1=83=D1=81=D1=82=D0=B0!");</td></tr><tr><td class=3D"line-number" valu=
+e=3D"97"></td><td class=3D"line-content">                return;</td></tr><=
+tr><td class=3D"line-number" value=3D"98"></td><td class=3D"line-content"> =
+           }</td></tr><tr><td class=3D"line-number" value=3D"99"></td><td c=
+lass=3D"line-content"><br></td></tr><tr><td class=3D"line-number" value=3D"=
+100"></td><td class=3D"line-content">            board[player][holeIndex] =
+=3D 0;</td></tr><tr><td class=3D"line-number" value=3D"101"></td><td class=
+=3D"line-content">            let side =3D player;</td></tr><tr><td class=
+=3D"line-number" value=3D"102"></td><td class=3D"line-content">            =
+let hole =3D holeIndex;</td></tr><tr><td class=3D"line-number" value=3D"103=
+"></td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-numbe=
+r" value=3D"104"></td><td class=3D"line-content">            while (stones =
+&gt; 0) {</td></tr><tr><td class=3D"line-number" value=3D"105"></td><td cla=
+ss=3D"line-content">                hole++;</td></tr><tr><td class=3D"line-=
+number" value=3D"106"></td><td class=3D"line-content">                if (h=
+ole &gt; 8) {</td></tr><tr><td class=3D"line-number" value=3D"107"></td><td=
+ class=3D"line-content">                    hole =3D 0;</td></tr><tr><td cl=
+ass=3D"line-number" value=3D"108"></td><td class=3D"line-content">         =
+           side =3D 1 - side;  // =D0=9F=D0=B5=D1=80=D0=B5=D0=BA=D0=BB=D1=
+=8E=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B0 =D0=BF=D1=80=D0=BE=D1=82=D0=
+=B8=D0=B2=D0=BE=D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=BD=D1=83=D1=8E =D1=81=D1=
+=82=D0=BE=D1=80=D0=BE=D0=BD=D1=83</td></tr><tr><td class=3D"line-number" va=
+lue=3D"109"></td><td class=3D"line-content">                }</td></tr><tr>=
+<td class=3D"line-number" value=3D"110"></td><td class=3D"line-content">   =
+             board[side][hole]++;</td></tr><tr><td class=3D"line-number" va=
+lue=3D"111"></td><td class=3D"line-content">                stones--;</td><=
+/tr><tr><td class=3D"line-number" value=3D"112"></td><td class=3D"line-cont=
+ent">            }</td></tr><tr><td class=3D"line-number" value=3D"113"></t=
+d><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-number" va=
+lue=3D"114"></td><td class=3D"line-content">            // =D0=9F=D1=80=D0=
+=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0 =D0=BD=D0=B0 =D0=B7=D0=B0=D1=85=D0=B2=D0=
+=B0=D1=82 =D0=BA=D0=B0=D0=BC=D0=BD=D0=B5=D0=B9</td></tr><tr><td class=3D"li=
+ne-number" value=3D"115"></td><td class=3D"line-content">            if (bo=
+ard[side][hole] % 2 =3D=3D=3D 0 &amp;&amp; side !=3D=3D currentPlayer) {</t=
+d></tr><tr><td class=3D"line-number" value=3D"116"></td><td class=3D"line-c=
+ontent">                scores[currentPlayer] +=3D board[side][hole];</td><=
+/tr><tr><td class=3D"line-number" value=3D"117"></td><td class=3D"line-cont=
+ent">                board[side][hole] =3D 0;</td></tr><tr><td class=3D"lin=
+e-number" value=3D"118"></td><td class=3D"line-content">            }</td><=
+/tr><tr><td class=3D"line-number" value=3D"119"></td><td class=3D"line-cont=
+ent"><br></td></tr><tr><td class=3D"line-number" value=3D"120"></td><td cla=
+ss=3D"line-content">            // =D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=
+=BA=D0=B0 =D0=BD=D0=B0 =D0=BF=D0=BE=D0=B1=D0=B5=D0=B4=D1=83 =D0=BF=D0=BE 81=
+ =D0=BE=D1=87=D0=BA=D1=83</td></tr><tr><td class=3D"line-number" value=3D"1=
+21"></td><td class=3D"line-content">            if (scores[currentPlayer] &=
+gt;=3D 81) {</td></tr><tr><td class=3D"line-number" value=3D"122"></td><td =
+class=3D"line-content">                alert(`=D0=98=D0=B3=D1=80=D0=BE=D0=
+=BA ${currentPlayer + 1} =D0=BF=D0=BE=D0=B1=D0=B5=D0=B4=D0=B8=D0=BB!`);</td=
+></tr><tr><td class=3D"line-number" value=3D"123"></td><td class=3D"line-co=
+ntent">                restartGame();</td></tr><tr><td class=3D"line-number=
+" value=3D"124"></td><td class=3D"line-content">                return;</td=
+></tr><tr><td class=3D"line-number" value=3D"125"></td><td class=3D"line-co=
+ntent">            }</td></tr><tr><td class=3D"line-number" value=3D"126"><=
+/td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-number" =
+value=3D"127"></td><td class=3D"line-content">            currentPlayer =3D=
+ 1 - currentPlayer;</td></tr><tr><td class=3D"line-number" value=3D"128"></=
+td><td class=3D"line-content">            updateBoard();</td></tr><tr><td c=
+lass=3D"line-number" value=3D"129"></td><td class=3D"line-content"><br></td=
+></tr><tr><td class=3D"line-number" value=3D"130"></td><td class=3D"line-co=
+ntent">            if (currentPlayer =3D=3D=3D 1) {</td></tr><tr><td class=
+=3D"line-number" value=3D"131"></td><td class=3D"line-content">            =
+    setTimeout(botMove, 1000);  // =D0=A5=D0=BE=D0=B4 =D0=B1=D0=BE=D1=82=D0=
+=B0 =D1=81 =D0=BD=D0=B5=D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=BE=D0=B9 =D0=B7=D0=
+=B0=D0=B4=D0=B5=D1=80=D0=B6=D0=BA=D0=BE=D0=B9</td></tr><tr><td class=3D"lin=
+e-number" value=3D"132"></td><td class=3D"line-content">            }</td><=
+/tr><tr><td class=3D"line-number" value=3D"133"></td><td class=3D"line-cont=
+ent"><br></td></tr><tr><td class=3D"line-number" value=3D"134"></td><td cla=
+ss=3D"line-content">            checkGameOver();</td></tr><tr><td class=3D"=
+line-number" value=3D"135"></td><td class=3D"line-content">        }</td></=
+tr><tr><td class=3D"line-number" value=3D"136"></td><td class=3D"line-conte=
+nt"><br></td></tr><tr><td class=3D"line-number" value=3D"137"></td><td clas=
+s=3D"line-content">        function botMove() {</td></tr><tr><td class=3D"l=
+ine-number" value=3D"138"></td><td class=3D"line-content">            // =
+=D0=A1=D0=BB=D0=BE=D0=B6=D0=BD=D0=B0=D1=8F =D1=81=D1=82=D1=80=D0=B0=D1=82=
+=D0=B5=D0=B3=D0=B8=D1=8F =D0=B1=D0=BE=D1=82=D0=B0: =D0=B2=D1=8B=D0=B1=D0=B8=
+=D1=80=D0=B0=D0=B5=D0=BC =D0=BB=D1=83=D0=BD=D0=BA=D1=83 =D1=81 =D0=BD=D0=B0=
+=D0=B8=D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B8=D0=BC =D0=BA=D0=BE=D0=BB=D0=B8=
+=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=BE=D0=BC =D0=BA=D0=B0=D0=BC=D0=BD=D0=B5=
+=D0=B9</td></tr><tr><td class=3D"line-number" value=3D"139"></td><td class=
+=3D"line-content">            let maxStones =3D -1;</td></tr><tr><td class=
+=3D"line-number" value=3D"140"></td><td class=3D"line-content">            =
+let bestMove =3D -1;</td></tr><tr><td class=3D"line-number" value=3D"141"><=
+/td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-number" =
+value=3D"142"></td><td class=3D"line-content">            for (let i =3D 0;=
+ i &lt; 9; i++) {</td></tr><tr><td class=3D"line-number" value=3D"143"></td=
+><td class=3D"line-content">                if (board[1][i] &gt; 0 &amp;&am=
+p; board[1][i] &gt; maxStones) {</td></tr><tr><td class=3D"line-number" val=
+ue=3D"144"></td><td class=3D"line-content">                    maxStones =
+=3D board[1][i];</td></tr><tr><td class=3D"line-number" value=3D"145"></td>=
+<td class=3D"line-content">                    bestMove =3D i;</td></tr><tr=
+><td class=3D"line-number" value=3D"146"></td><td class=3D"line-content">  =
+              }</td></tr><tr><td class=3D"line-number" value=3D"147"></td><=
+td class=3D"line-content">            }</td></tr><tr><td class=3D"line-numb=
+er" value=3D"148"></td><td class=3D"line-content"><br></td></tr><tr><td cla=
+ss=3D"line-number" value=3D"149"></td><td class=3D"line-content">          =
+  if (bestMove !=3D=3D -1) {</td></tr><tr><td class=3D"line-number" value=
+=3D"150"></td><td class=3D"line-content">                makeMove(1, bestMo=
+ve);</td></tr><tr><td class=3D"line-number" value=3D"151"></td><td class=3D=
+"line-content">            }</td></tr><tr><td class=3D"line-number" value=
+=3D"152"></td><td class=3D"line-content">        }</td></tr><tr><td class=
+=3D"line-number" value=3D"153"></td><td class=3D"line-content"><br></td></t=
+r><tr><td class=3D"line-number" value=3D"154"></td><td class=3D"line-conten=
+t">        function updateBoard() {</td></tr><tr><td class=3D"line-number" =
+value=3D"155"></td><td class=3D"line-content">            createBoard();</t=
+d></tr><tr><td class=3D"line-number" value=3D"156"></td><td class=3D"line-c=
+ontent">            document.getElementById('player1-score').textContent =
+=3D `=D0=9E=D1=87=D0=BA=D0=B8 =D0=98=D0=B3=D1=80=D0=BE=D0=BA=D0=B0: ${score=
+s[0]}`;</td></tr><tr><td class=3D"line-number" value=3D"157"></td><td class=
+=3D"line-content">            document.getElementById('player2-score').text=
+Content =3D `=D0=9E=D1=87=D0=BA=D0=B8 =D0=91=D0=BE=D1=82=D0=B0: ${scores[1]=
+}`;</td></tr><tr><td class=3D"line-number" value=3D"158"></td><td class=3D"=
+line-content">        }</td></tr><tr><td class=3D"line-number" value=3D"159=
+"></td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-numbe=
+r" value=3D"160"></td><td class=3D"line-content">        function checkGame=
+Over() {</td></tr><tr><td class=3D"line-number" value=3D"161"></td><td clas=
+s=3D"line-content">            if (board[0].every(hole =3D&gt; hole =3D=3D=
+=3D 0) || board[1].every(hole =3D&gt; hole =3D=3D=3D 0)) {</td></tr><tr><td=
+ class=3D"line-number" value=3D"162"></td><td class=3D"line-content">      =
+          let winner =3D scores[0] &gt; scores[1] ? '=D0=98=D0=B3=D1=80=D0=
+=BE=D0=BA' : '=D0=91=D0=BE=D1=82';</td></tr><tr><td class=3D"line-number" v=
+alue=3D"163"></td><td class=3D"line-content">                if (scores[0] =
+=3D=3D=3D scores[1]) {</td></tr><tr><td class=3D"line-number" value=3D"164"=
+></td><td class=3D"line-content">                    winner =3D '=D0=9D=D0=
+=B8=D1=87=D1=8C=D1=8F';</td></tr><tr><td class=3D"line-number" value=3D"165=
+"></td><td class=3D"line-content">                }</td></tr><tr><td class=
+=3D"line-number" value=3D"166"></td><td class=3D"line-content">            =
+    alert(`=D0=98=D0=B3=D1=80=D0=B0 =D0=BE=D0=BA=D0=BE=D0=BD=D1=87=D0=B5=D0=
+=BD=D0=B0! =D0=9F=D0=BE=D0=B1=D0=B5=D0=B4=D0=B8=D1=82=D0=B5=D0=BB=D1=8C: ${=
+winner}`);</td></tr><tr><td class=3D"line-number" value=3D"167"></td><td cl=
+ass=3D"line-content">                restartGame();</td></tr><tr><td class=
+=3D"line-number" value=3D"168"></td><td class=3D"line-content">            =
+}</td></tr><tr><td class=3D"line-number" value=3D"169"></td><td class=3D"li=
+ne-content">        }</td></tr><tr><td class=3D"line-number" value=3D"170">=
+</td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-number"=
+ value=3D"171"></td><td class=3D"line-content">        function restartGame=
+() {</td></tr><tr><td class=3D"line-number" value=3D"172"></td><td class=3D=
+"line-content">            board =3D [</td></tr><tr><td class=3D"line-numbe=
+r" value=3D"173"></td><td class=3D"line-content">                [9, 9, 9, =
+9, 9, 9, 9, 9, 9],</td></tr><tr><td class=3D"line-number" value=3D"174"></t=
+d><td class=3D"line-content">                [9, 9, 9, 9, 9, 9, 9, 9, 9]</t=
+d></tr><tr><td class=3D"line-number" value=3D"175"></td><td class=3D"line-c=
+ontent">            ];</td></tr><tr><td class=3D"line-number" value=3D"176"=
+></td><td class=3D"line-content">            scores =3D [0, 0];</td></tr><t=
+r><td class=3D"line-number" value=3D"177"></td><td class=3D"line-content"> =
+           currentPlayer =3D 0;</td></tr><tr><td class=3D"line-number" valu=
+e=3D"178"></td><td class=3D"line-content">            updateBoard();</td></=
+tr><tr><td class=3D"line-number" value=3D"179"></td><td class=3D"line-conte=
+nt">        }</td></tr><tr><td class=3D"line-number" value=3D"180"></td><td=
+ class=3D"line-content"><br></td></tr><tr><td class=3D"line-number" value=
+=3D"181"></td><td class=3D"line-content">        // =D0=98=D0=BD=D0=B8=D1=
+=86=D0=B8=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D1=8F =D0=B8=D0=B3=D1=
+=80=D1=8B</td></tr><tr><td class=3D"line-number" value=3D"182"></td><td cla=
+ss=3D"line-content">        createBoard();</td></tr><tr><td class=3D"line-n=
+umber" value=3D"183"></td><td class=3D"line-content">    <span class=3D"htm=
+l-tag">&lt;/script&gt;</span></td></tr><tr><td class=3D"line-number" value=
+=3D"184"></td><td class=3D"line-content"><span class=3D"html-tag">&lt;/body=
+&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"185"></td><td c=
+lass=3D"line-content"><span class=3D"html-tag">&lt;/html&gt;</span></td></t=
+r><tr><td class=3D"line-number" value=3D"186"></td><td class=3D"line-conten=
+t"><span class=3D"html-end-of-file"></span></td></tr></tbody></table></body=
+></html>
+------MultipartBoundary--wa1csM3UpiABJVpvm1Xu1oDg6QMLI1giTvb9dYCib9------
