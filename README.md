@@ -190,10 +190,37 @@
     } else {
         document.getElementById('difficulty-container').style.display = 'none';
     }
-}
+    }
     if (player === 0 && gameMode === 'local' || currentPlayer === player) {
     hole.onclick = () => makeMove(currentPlayer, i);
-}
+    }
+    function distributeStones(player, holeIndex, stones) {
+    let currentHole = holeIndex;
+    let currentRow = player;
+
+    while (stones > 0) {
+        currentHole++;
+        if (currentHole >= 9) {
+            currentRow = 1 - currentRow;
+            currentHole = 0;
+        }
+
+        board[currentRow][currentHole]++;
+        stones--;
+    }
+
+    currentPlayer = 1 - currentPlayer;
+    createBoard();
+    }
+      function restartGame() {
+    board = [
+        [9, 9, 9, 9, 9, 9, 9, 9, 9],
+        [9, 9, 9, 9, 9, 9, 9, 9, 9]
+    ];
+    scores = [0, 0];
+    currentPlayer = 0;
+    createBoard();
+    }
 
         function createBoard() {
             const boardElement = document.getElementById('board');
