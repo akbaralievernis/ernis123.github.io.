@@ -120,6 +120,15 @@
             <option value="hard">Татаал</option>
         </select>
     </div>
+    <!-- Режимы игры -->
+<div class="mode">
+    <label for="gameMode">Оюунун режимин тандаңыз:</label>
+    <select id="gameMode" onchange="setGameMode(this.value)">
+        <option value="local">Эки адам</option>
+        <option value="bot">Бот менен</option>
+    </select>
+</div>
+
     <div>
         <button onclick="restartGame()">Оюуну кайра баштоо</button>
     </div>
@@ -174,6 +183,17 @@
         let currentPlayer = 0;  // Игрок 1 начинает
         let gameMode = 'bot';  // Режим игры (bot или two-players)
         let difficulty = 'easy';  // Уровень сложности
+        function setGameMode(mode) {
+    gameMode = mode;
+    if (mode === 'bot') {
+        document.getElementById('difficulty-container').style.display = 'block';
+    } else {
+        document.getElementById('difficulty-container').style.display = 'none';
+    }
+}
+    if (player === 0 && gameMode === 'local' || currentPlayer === player) {
+    hole.onclick = () => makeMove(currentPlayer, i);
+}
 
         function createBoard() {
             const boardElement = document.getElementById('board');
