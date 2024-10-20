@@ -1,174 +1,179 @@
 
-        /* Общие стили */
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #6a11cb, #2575fc); /* Градиентный фон */
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    <html lang="ky">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тогуз Коргоол</title>
+    <style>
+           /* Общие стили */
+    body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to right, #6a11cb, #2575fc); /* Градиентный фон */
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    h1 {
+        color: #f4f4f4;
+        font-size: 3em;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
 }
 
-h1 {
-    color: #f4f4f4;
-    font-size: 3em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 20px;
-}
+     /* Доска для игры */
+    .board {
+        display: grid;
+        grid-template-columns: repeat(9, 80px); /* Увеличение размера ячеек */
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.2); /* Полупрозрачный фон для доски */
+        border-radius: 15px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Тень под доской */
+    }
 
-/* Доска для игры */
-.board {
-    display: grid;
-    grid-template-columns: repeat(9, 80px); /* Увеличение размера ячеек */
-    gap: 10px;
-    justify-content: center;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2); /* Полупрозрачный фон для доски */
-    border-radius: 15px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Тень под доской */
-}
+    .hole {
+         width: 80px;
+         height: 80px;
+         background-color: #f1c40f; /* Жёлтый цвет лунок */
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 50%;
+         position: relative;
+         transition: background-color 0.3s, transform 0.3s;
+         cursor: pointer;
+    }
 
-.hole {
-    width: 80px;
-    height: 80px;
-    background-color: #f1c40f; /* Жёлтый цвет лунок */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    position: relative;
-    transition: background-color 0.3s, transform 0.3s;
-    cursor: pointer;
-}
+    .hole:hover {
+         background-color: #f39c12; /* Темнее при наведении */
+         transform: scale(1.1); /* Лёгкое увеличение при наведении */
+    }
 
-.hole:hover {
-    background-color: #f39c12; /* Темнее при наведении */
-    transform: scale(1.1); /* Лёгкое увеличение при наведении */
-}
+    .hole img {
+          width: 50px;
+          height: 50px;
+          transition: transform 0.3s;
+    }
 
-.hole img {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.3s;
-}
+    .hole:hover img {
+         transform: rotate(360deg); /* Вращение коргоолов при наведении */
+    }
 
-.hole:hover img {
-    transform: rotate(360deg); /* Вращение коргоолов при наведении */
-}
+     .hole .stones {
+          position: absolute;
+          bottom: 5px;
+         right: 5px;
+         font-size: 14px;
+         background-color: #fff;
+         color: #333;
+         border-radius: 50%;
+         padding: 3px 7px;
+         border: 1px solid #ccc;
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+     }
 
-.hole .stones {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    font-size: 14px;
-    background-color: #fff;
-    color: #333;
-    border-radius: 50%;
-    padding: 3px 7px;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
+    /* Стиль кнопок */
+    button {
+         padding: 12px 25px;
+         font-size: 18px;
+         background-color: #2980b9;
+         color: white;
+         border: none;
+         border-radius: 8px;
+         cursor: pointer;
+         transition: background-color 0.3s, transform 0.3s;
+    }  
 
-/* Стиль кнопок */
-button {
-    padding: 12px 25px;
-    font-size: 18px;
-    background-color: #2980b9;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-}
+    button:hover {
+           background-color: #3498db;
+     }
 
-button:hover {
-    background-color: #3498db;
-    transform: scale(1.05); /* Увеличение кнопки при наведении */
-}
+    /* Стиль очков */
+    .scores {
+          font-size: 20px;
+          margin-bottom: 20px;
+    }
 
-/* Стиль очков */
-.scores {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
+     .scores span {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        margin: 0 10px;
+    }
 
-.scores span {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    margin: 0 10px;
-}
+     /* Стиль истории и правил */
+    .history-rules {
+          width: 90%;
+          margin: 0 auto;
+          text-align: left;
+          padding: 20px;
+          background-color: rgba(255, 255, 255, 0.2);
+          border-radius: 15px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         color: #f4f4f4;
+    }
 
-/* Стиль истории и правил */
-.history-rules {
-    width: 90%;
-    margin: 0 auto;
-    text-align: left;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: #f4f4f4;
-}
+     .history-rules h2 {
+          text-align: center;
+          color: #ecf0f1;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+          margin-bottom: 20px;
+    }
 
-.history-rules h2 {
-    text-align: center;
-    color: #ecf0f1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 20px;
-}
+    .history-rules p {
+          line-height: 1.8;
+          margin-bottom: 15px;
+    }
+   
+     /* Стиль для создателя и новостей */
+     .creator, .news {
+         width: 90%;
+         margin: 30px auto;
+         padding: 20px;
+         background-color: rgba(255, 255, 255, 0.2);
+         border-radius: 15px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         color: #f4f4f4;
+    }
 
-.history-rules p {
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
+    .creator p, .news p {
+         line-height: 1.8;
+    }
 
-/* Стиль для создателя и новостей */
-.creator, .news {
-    width: 90%;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: #f4f4f4;
-}
-
-.creator p, .news p {
-    line-height: 1.8;
-}
-
-/* Выбор сложности */
-.difficulty {
+     /* Выбор сложности */
+    .difficulty {
     margin: 20px 0;
     font-size: 18px;
     color: #fff;
-}
+    }
 
-.difficulty select {
+    .difficulty select {
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
     border: none;
+    }
+
+    /* Анимация перемещения */
+     @keyframes move {
+        0% { transform: scale(1); }
+       50% { transform: scale(1.2); }
+       100% { transform: scale(1); }
 }
 
-/* Анимация перемещения */
-@keyframes move {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
-}
-
-/* Добавление плавности для всех элементов */
-* {
+     /* Добавление плавности для всех элементов */
+    * {
     transition: all 0.3s ease;
-}
-</style>
-</head>
-<body>
-    <h1>Тогуз Коргоол</h1>
+    }
+     </style>
+    </head>
+    <body>
+     <h1>Тогуз Коргоол</h1>
     <div class="scores">
         <span id="player1-score">1-Оюунчунун упайы: 0</span> | 
         <span id="player2-score">2-Оюунчунун упайы: 0</span>
@@ -186,13 +191,13 @@ button:hover {
         <button onclick="restartGame()">Оюунду кайра баштоо</button>
     </div>
     <!-- Режимы игры -->
-<div class="mode">
+    <div class="mode">
     <label for="gameMode">Оюундун режимин тандаңыз:</label>
     <select id="gameMode" onchange="setGameMode(this.value)">
         <option value="local">Эки адам</option>
         <option value="bot">Бот менен</option>
     </select>
-</div>
+    </div>
 
     <div class="container">
         <div class="history-rules">
@@ -372,3 +377,5 @@ button:hover {
         // Инициализация игры
         createBoard();
     </script>
+    </body>
+    </html>
