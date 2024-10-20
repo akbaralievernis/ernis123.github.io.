@@ -1,303 +1,207 @@
-
-   <style>
-           /* Общие стили */
-    body {
-        font-family: 'Arial', sans-serif;
-        background: linear-gradient(to right, #6a11cb, #2575fc); /* Градиентный фон */
-        color: #fff;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
-
-    h1 {
-        color: #f4f4f4;
-        font-size: 3em;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-        margin-bottom: 20px;
-}
-
-     /* Доска для игры */
-    .board {
-        display: grid;
-        grid-template-columns: repeat(9, 80px); /* Увеличение размера ячеек */
-        gap: 10px;
-        justify-content: center;
-        margin-bottom: 30px;
-        padding: 20px;
-        background-color: rgba(255, 255, 255, 0.2); /* Полупрозрачный фон для доски */
-        border-radius: 15px;
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Тень под доской */
-    }
-
-    .hole {
-         width: 80px;
-         height: 80px;
-         background-color: #f1c40f; /* Жёлтый цвет лунок */
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         border-radius: 50%;
-         position: relative;
-         transition: background-color 0.3s, transform 0.3s;
-         cursor: pointer;
-    }
-
-    .hole:hover {
-         background-color: #f39c12; /* Темнее при наведении */
-         transform: scale(1.1); /* Лёгкое увеличение при наведении */
-    }
-
-    .hole img {
-          width: 50px;
-          height: 50px;
-          transition: transform 0.3s;
-    }
-
-    .hole:hover img {
-         transform: rotate(360deg); /* Вращение коргоолов при наведении */
-    }
-
-     .hole .stones {
-          position: absolute;
-          bottom: 5px;
-         right: 5px;
-         font-size: 14px;
-         background-color: #fff;
-         color: #333;
-         border-radius: 50%;
-         padding: 3px 7px;
-         border: 1px solid #ccc;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-     }
-
-    /* Стиль кнопок */
-    button {
-         padding: 12px 25px;
-         font-size: 18px;
-         background-color: #2980b9;
-         color: white;
-         border: none;
-         border-radius: 8px;
-         cursor: pointer;
-         transition: background-color 0.3s, transform 0.3s;
-    }  
-
-    button:hover {
-           background-color: #3498db;
-     }
-
-    /* Стиль очков */
-    .scores {
-          font-size: 20px;
-          margin-bottom: 20px;
-    }
-
-     .scores span {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-        margin: 0 10px;
-    }
-
-     /* Стиль истории и правил */
-    .history-rules {
-          width: 90%;
-          margin: 0 auto;
-          text-align: left;
-          padding: 20px;
-          background-color: rgba(255, 255, 255, 0.2);
-          border-radius: 15px;
-         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-         color: #f4f4f4;
-    }
-
-     .history-rules h2 {
-          text-align: center;
-          color: #ecf0f1;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-          margin-bottom: 20px;
-    }
-
-    .history-rules p {
-          line-height: 1.8;
-          margin-bottom: 15px;
-    }
-   
-     /* Стиль для создателя и новостей */
-     .creator, .news {
-         width: 90%;
-         margin: 30px auto;
-         padding: 20px;
-         background-color: rgba(255, 255, 255, 0.2);
-         border-radius: 15px;
-         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-         color: #f4f4f4;
-    }
-
-    .creator p, .news p {
-         line-height: 1.8;
-    }
-
-     /* Выбор сложности */
-    .difficulty {
-    margin: 20px 0;
-    font-size: 18px;
-    color: #fff;
-    }
-
-    .difficulty select {
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    }
-
-    /* Анимация перемещения */
-     @keyframes move {
-        0% { transform: scale(1); }
-       50% { transform: scale(1.2); }
-       100% { transform: scale(1); }
-}
-
-     /* Добавление плавности для всех элементов */
-    * {
-    transition: all 0.3s ease;
-    }
-     </style>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тогуз Коргоол</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: blueviolet; /* Светлый фон */
+            color: #dark;
+        }
+        h1 {
+            color: dark; /* Заголовок */
+        }
+        .board {
+            display: grid;
+            grid-template-columns: repeat(9, 70px);
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .hole {
+            width: 70px;
+            height: 70px;
+            background-color: #add8e6; /* Голубой цвет */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            position: relative;
+            transition: background-color 0.3s;
+        }
+        .hole:hover {
+            background-color: #87cefa; /* Более темный голубой при наведении */
+        }
+        .hole img {
+            width: 45px;
+            height: 45px;
+        }
+        .scores {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .hole .stones {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            font-size: 14px;
+            background-color: white;
+            border-radius: 50%;
+            padding: 3px 7px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #004494; /* Темнее при наведении */
+        }
+          .history-rules {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .history-rules p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .history-rules h2 {
+            text-align: center;
+            color: #0056b3;
+        }
+        .container {
+            padding: 20px;
+        }
+         .creator, .news {
+            width: 80%;
+            margin: 30px auto;
+            text-align: left;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .creator p, .news p {
+            line-height: 1.6;
+        }
+        .difficulty {
+            margin: 20px 0;
+        }
+    </style>
 </head>
-    <body>
-     <h1>Тогуз Коргоол</h1>
+<body>
+    <h1>Тогуз Коргоол</h1>
     <div class="scores">
-        <span id="player1-score">1-Оюунчунун упайы: 0</span> | 
-        <span id="player2-score">2-Оюунчунун упайы: 0</span>
+        <span id="player1-score">Очки Игрока 1: 0</span> | 
+        <span id="player2-score">Очки Игрока 2: 0</span>
     </div>
     <div id="board" class="board"></div>
     <div class="difficulty">
-        <label for="difficulty">Оюундун татаалдыгын тандаңыз:</label>
+        <label for="difficulty">Выберите уровень сложности:</label>
         <select id="difficulty">
-            <option value="easy">Жеңил</option>
-            <option value="medium">Орточо</option>
-            <option value="hard">Татаал</option>
+            <option value="easy">Легкий</option>
+            <option value="medium">Средний</option>
+            <option value="hard">Сложный</option>
         </select>
     </div>
     <div>
-        <button onclick="restartGame()">Оюунду кайра баштоо</button>
+        <button onclick="restartGame()">Начать заново</button>
     </div>
-    <!-- Режимы игры -->
-    <div class="mode">
-    <label for="gameMode">Оюундун режимин тандаңыз:</label>
-    <select id="gameMode" onchange="setGameMode(this.value)">
-        <option value="local">Эки адам</option>
-        <option value="bot">Бот менен</option>
-    </select>
-    </div>
-
-<div class="container">
+ <div class="container">
         <div class="history-rules">
-            <h2>Тогуз Коргоолдун тарыхы</h2>
+            <h2>История игры Тогуз Коргоол</h2>
             <p>
-                Тогуз Коргоол — бул Борбор Азияда миң жылдан ашуун убакыттан бери белгилүү болгон байыркы акыл-эс оюндардын бири. 
-                Бул оюн көчмөн элдердин маданиятына кирип, казактар, кыргыздар жана башка түрк элдери арасында кеңири тараган. Оюн "манкала" тибиндеги оюндардын бири болуп эсептелет.
+                Тогуз Коргоол (Тогуз Кумалак) — это древняя интеллектуальная игра, которая зародилась в Центральной Азии более тысячи лет назад. 
+                Она широко известна в культурах кочевников, таких как казахи, кыргызы и другие тюркские народы. Эта игра считается одной из разновидностей игр типа "манкала", 
+                где игроки собирают камни или зерна в специальные лунки на доске.
             </p>
             <p>
-                Илгери Тогуз Коргоол акыл-эс оюн катары гана колдонулбастан, стратегиялык ой жүгүртүүнү, логиканы жана көңүлдү топтоо үчүн колдонулган. 
-                Бул Борбор Азия элдеринин маданий символу болуп, азыр да ар кандай курактагы оюнчулар арасында кеңири жайылган.
+                В прошлом игра Тогуз Коргоол использовалась не только как средство развлечения, но и как способ тренировки стратегического мышления, концентрации и логики. 
+                Она стала символом интеллектуальной культуры народов Центральной Азии и до сих пор остаётся популярной среди игроков всех возрастов.
             </p>
 
- <h2>Тогуз Коргоолдун эрежелери</h2>
+            <h2>Правила игры Тогуз Коргоол</h2>
             <p>
-                Оюн тактада жүргүзүлөт, анда ар бир оюнчу үчүн 9дан уя жана эки чоң уя (казан) бар. 
-                Башында ар бир уяга 9 коргоол салынып, оюнчулар 81 коргоол чогултууга аракет кылышат.
+                Игра ведется на доске, состоящей из 18 лунок, по 9 на каждой стороне, и двух больших лунок (казанов) для каждого игрока. 
+                В начале в каждую лунку выкладывается по 9 камней (коргоолов). Цель игры — набрать 81 камень, собирая камни соперника.
             </p>
             <p>
-                Оюнчулар кезек менен өздөрүнүн уяларынан коргоолдорду алып, ар бир кийинки уяга бирден коргоол коюшат. 
-                Эгерде акыркы коргоол атаандаштын уясына түшүп, ал жердеги коргоолдордун саны жуп болсо, оюнчу ошол уядан бардык коргоолдорду өзүнө алат.
+                Игроки по очереди берут все камни из любой своей лунки и раскладывают их по одной в каждую следующую лунку по часовой стрелке. 
+                Если последний камень попадает в лунку соперника, где общее количество камней становится четным, игрок забирает все камни из этой лунки себе.
             </p>
             <p>
-                Оюндун максаты — биринчи болуп 81 коргоол чогултуу.
+                Игра продолжается до тех пор, пока один из игроков не наберет 81 камень, что и означает победу.
             </p>
             <div class="creator">
-            <h2>Оюндун жаратуучусу</h2>
+            <h2>Создатель игры</h2>
             <p>
-                Бул версияны Акбаралиев Эрнис түзгөн. Ал 17 жашта жана ОшГУда "Автоматташтырылган бизнес-процесстер жана финансы башкаруу" боюнча биринчи курста окуйт. Эрнистин программалоого болгон кызыгуусу жана логикалык оюндарга болгон сүйүүсү бул оюнду иштеп чыгууга түрткү болду.
+                Эту версию игры разработал Акбаралиев Эрнис, которому 17 лет. Эрнис учится в ОшГУ на первом курсе по специальности "Автоматизированное управление бизнес процессами и финансами". 
+                Его интерес к программированию и страсть к логическим играм помогли ему создать эту игру в свободное время. Его цель — развить и популяризировать интеллектуальные игры среди молодёжи.
             </p>
         </div>
-  <!-- Секция менен кызыктуу жаңылыктар -->
+
+        <!-- Секция с интересными новостями -->
         <div class="news">
-            <h2>Кызыктуу жаңылыктар</h2>
+            <h2>Интересные новости</h2>
             <p>
-                Жакында дүйнө жүзүндөгү интеллектуалдык оюндар боюнча эл аралык турнир өтүп, Тогуз Коргоол боюнча мыкты оюнчулар Казакстан, Кыргызстан жана Өзбекстандан катышты. 
-                Мындан тышкары, Тогуз Коргоол айрым Борбор Азия мектептеринде милдеттүү предмет катары киргизилүүсү пландалууда.
+                В мире интеллектуальных игр недавно был проведён международный турнир по Тогуз Коргоол, в котором приняли участие лучшие игроки из Казахстана, Кыргызстана и Узбекистана. 
+                Также планируется введение Тогуз Коргоол как обязательного предмета в некоторых школах Центральной Азии, чтобы поддержать культурное наследие и развитие мышления у детей.
             </p>
         </div>
     </div>
-    </div>
+        </div>
     </div>
 
-<script>
+    <script>
         let board = [
-            [9, 9, 9, 9, 9, 9, 9, 9, 9],  // Лунки игрока
-            [9, 9, 9, 9, 9, 9, 9, 9, 9]   // Лунки бота
+            [9, 9, 9, 9, 9, 9, 9, 9, 9],  // Лунки игрока 1
+            [9, 9, 9, 9, 9, 9, 9, 9, 9]   // Лунки игрока 2
         ];
         let scores = [0, 0];
-        let currentPlayer = 0;  // Игрок начинает
+        let currentPlayer = 0;  // Игрок 1 начинает
+        let gameMode = 'bot';  // Режим игры (bot или two-players)
+        let difficulty = 'easy';  // Уровень сложности
 
         function createBoard() {
             const boardElement = document.getElementById('board');
             boardElement.innerHTML = '';  // Очистить доску
-            for (let i = 0; i < 9; i++) {
-                // Лунки бота (в верхней строке)
-                const hole2 = document.createElement('div');
-                hole2.className = 'hole';
-                hole2.innerHTML = `<img src="photo_2024-09-16_21-46-27.jpg" alt="marble"><div class="stones">${board[1][i]}</div>`;
-                boardElement.appendChild(hole2);
+            for (let player = 0; player < 2; player++) {
+                for (let i = 0; i < 9; i++) {
+                    const hole = document.createElement('div');
+                    hole.className = 'hole';
+                    hole.innerHTML = `<img src="photo_2024-09-16_21-46-27.jpg" alt="marble"><div class="stones">${board[player][i]}</div>`;
+                    
+                    // Обработчик клика только для игрока 1
+                    if (player === 0) {
+                        hole.onclick = () => makeMove(currentPlayer, i);
+                    }
+
+                    boardElement.appendChild(hole);
+                }
             }
-            for (let i = 0; i < 9; i++) {
-                // Лунки игрока (в нижней строке)
-                const hole1 = document.createElement('div');
-                hole1.className = 'hole';
-                hole1.innerHTML = `<img src="photo_2024-09-02_09-27-54.jpg" alt="marble"><div class="stones">${board[0][i]}</div>`;
-                hole1.onclick = () => makeMove(0, i);
-                boardElement.appendChild(hole1);
-            }
-            }
-            function setGameMode(mode) {
-                gameMode = mode;
-                if (mode === 'bot') {
-                document.getElementById('difficulty-container').style.display = 'block';
-            } else {
-               document.getElementById('difficulty-container').style.display = 'none';
-              } 
-            }
-            if (player === 0 && gameMode === 'local' || currentPlayer === player) {
-             hole.onclick = () => makeMove(currentPlayer, i);
-            }
+        }
 
         function makeMove(player, holeIndex) {
             if (player !== currentPlayer) {
                 alert("Сейчас не ваш ход!");
                 return;
             }
-              function distributeStones(player, holeIndex, stones) {
-              let currentHole = holeIndex;
-              let currentRow = player;
-
-              while (stones > 0) {
-               currentHole++;
-               if (currentHole >= 9) {
-               currentRow = 1 - currentRow;
-               currentHole = 0;
-               }
-
-              board[currentRow][currentHole]++;
-            stones--;
-        }
-
-    currentPlayer = 1 - currentPlayer;
-    createBoard();
-}
 
             let stones = board[player][holeIndex];
             if (stones === 0) {
@@ -325,10 +229,17 @@
                 board[side][hole] = 0;
             }
 
+            // Проверка на победу по 81 очку
+            if (scores[currentPlayer] >= 81) {
+                alert(`Игрок ${currentPlayer + 1} победил!`);
+                restartGame();
+                return;
+            }
+
             currentPlayer = 1 - currentPlayer;
             updateBoard();
 
-            if (currentPlayer === 1) {
+            if (gameMode === 'bot' && currentPlayer === 1) {
                 setTimeout(botMove, 1000);  // Ход бота с небольшой задержкой
             }
 
@@ -336,20 +247,54 @@
         }
 
         function botMove() {
-            let validMoves = board[1].map((stones, index) => stones > 0 ? index : -1).filter(index => index !== -1);
-            let randomMove = validMoves[Math.floor(Math.random() * validMoves.length)];
-            makeMove(1, randomMove);
+            let bestMove = -1;
+
+
+            if (difficulty === 'easy') {
+                // Случайный ход
+                do {
+                    bestMove = Math.floor(Math.random() * 9);
+                } while (board[1][bestMove] === 0);
+            } else if (difficulty === 'medium') {
+                // Лунка с максимальным количеством камней
+                let maxStones = -1;
+                for (let i = 0; i < 9; i++) {
+                    if (board[1][i] > maxStones) {
+                        maxStones = board[1][i];
+                        bestMove = i;
+                    }
+                }
+            } else if (difficulty === 'hard') {
+                // Сложная стратегия (можно дополнить)
+                bestMove = complexStrategy();
+            }
+
+            makeMove(1, bestMove);
+        }
+
+        function complexStrategy() {
+            // Сложная логика выбора лунки для бота
+            // Здесь можно реализовать более сложный алгоритм
+            let maxStones = -1;
+            let bestMove = -1;
+            for (let i = 0; i < 9; i++) {
+                if (board[1][i] > maxStones) {
+                    maxStones = board[1][i];
+                    bestMove = i;
+                }
+            }
+            return bestMove;
         }
 
         function updateBoard() {
             createBoard();
-            document.getElementById('player1-score').textContent = `Очки Игрока: ${scores[0]}`;
-            document.getElementById('player2-score').textContent = `Очки Бота: ${scores[1]}`;
+            document.getElementById('player1-score').textContent = `Очки Игрока 1: ${scores[0]}`;
+            document.getElementById('player2-score').textContent = `Очки Игрока 2: ${scores[1]}`;
         }
 
         function checkGameOver() {
             if (board[0].every(hole => hole === 0) || board[1].every(hole => hole === 0)) {
-                let winner = scores[0] > scores[1] ? 'Игрок' : 'Бот';
+                let winner = scores[0] > scores[1] ? 'Игрок 1' : 'Игрок 2';
                 if (scores[0] === scores[1]) {
                     winner = 'Ничья';
                 }
@@ -370,6 +315,11 @@
 
         // Инициализация игры
         createBoard();
+
+        // Слушатель для изменения уровня сложности
+        document.getElementById('difficulty').addEventListener('change', function() {
+            difficulty = this.value;
+        });
     </script>
-    </body>
-    </html>
+</body>
+</html>
