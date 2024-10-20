@@ -148,6 +148,31 @@ h1 {
 * {
     transition: all 0.3s ease;
 }
+        body {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+ .container {
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .board {
+        grid-template-columns: repeat(9, 50px); /* Ещё большее уменьшение ячеек */
+        gap: 3px;
+    }
+  .hole {
+        width: 50px;
+        height: 50px;
+    }
+h1 {
+        font-size: 1.8em;
+    }
+  .scores {
+        font-size: 14px;
+    }
+}
 </style>
 </head>
 <body>
