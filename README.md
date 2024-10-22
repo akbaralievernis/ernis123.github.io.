@@ -4,175 +4,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Тогуз Коргоол</title>
     <style>
-       body {
-        font-family: 'Arial', sans-serif;
-        background: linear-gradient(to right, #6a11cb, #2575fc); /* Градиентный фон */
-        color: #fff;
-        margin: 0;
-        padding: 0;
-        text-align: center;
+  body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: url('photo_2024-09-02_09-27-54.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            transition: background 0.3s, color 0.3s;
         }
-h1 {
-        color: #f4f4f4;
-        font-size: 3em;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-        margin-bottom: 20px;
-}
-/* Доска для игры */
-    .board {
-        display: grid;
-        grid-template-columns: repeat(9, 80px); /* Увеличение размера ячеек */
-        gap: 10px;
-        justify-content: center;
-        margin-bottom: 30px;
-        padding: 20px;
-        background-color: rgba(255, 255, 255, 0.2); /* Полупрозрачный фон для доски */
-        border-radius: 15px;
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Тень под доской */
-    }
- .hole {
-         width: 80px;
-         height: 80px;
-         background-color: #f1c40f; /* Жёлтый цвет лунок */
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         border-radius: 50%;
-         position: relative;
-         transition: background-color 0.3s, transform 0.3s;
-         cursor: pointer;
-    }
- .hole:hover {
-         background-color: #f39c12; /* Темнее при наведении */
-         transform: scale(1.1); /* Лёгкое увеличение при наведении */
-    }
-.hole img {
-          width: 50px;
-          height: 50px;
-          transition: transform 0.3s;
-    }
- .hole:hover img {
-         transform: rotate(360deg); /* Вращение коргоолов при наведении */
-    }
-  .hole .stones {
-          position: absolute;
-          bottom: 5px;
-         right: 5px;
-         font-size: 14px;
-         background-color: #fff;
-         color: #333;
-         border-radius: 50%;
-         padding: 3px 7px;
-         border: 1px solid #ccc;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-     }
-/* Стиль кнопок */
-    button {
-         padding: 12px 25px;
-         font-size: 18px;
-         background-color: #2980b9;
-         color: white;
-         border: none;
-         border-radius: 8px;
-         cursor: pointer;
-         transition: background-color 0.3s, transform 0.3s;
-    }  
- button:hover {
-           background-color: #3498db;
-          transform: scale(1.05); /* Увеличение кнопки при наведении */
-}/* Стиль очков */
-    .scores {
-          font-size: 20px;
-          margin-bottom: 20px;
-    }
- .scores span {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-        margin: 0 10px;
-    }
-/* Стиль истории и правил */
-   .history-rules {
-          width: 90%;
-          margin: 0 auto;
-          text-align: left;
-          padding: 20px;
-          background-color: rgba(255, 255, 255, 0.2);
-          border-radius: 15px;
-         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-         color: #f4f4f4;
-}
- .history-rules h2 {
-          text-align: center;
-          color: #ecf0f1;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-          margin-bottom: 20px;
-}
- .history-rules p {
-          line-height: 1.8;
-          margin-bottom: 15px;
-}
-/* Стиль для создателя и новостей */
-    .creator, .news {
-         width: 90%;
-         margin: 30px auto;
-         padding: 20px;
-         background-color: rgba(255, 255, 255, 0.2);
-         border-radius: 15px;
-         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-         color: #f4f4f4;
-    }
-        .creator p, .news p {
-         line-height: 1.8;
-    }
-/* Выбор сложности */
-   .difficulty {
-         margin: 20px 0;
-         font-size: 18px;
-        color: #fff;
-    }
- .difficulty select {
-          padding: 10px;
-          font-size: 16px;
-         border-radius: 5px;
-          border: none;
-    }
-/* Анимация перемещения */
-   @keyframes move {
-        0% { transform: scale(1); }
-       50% { transform: scale(1.2); }
-       100% { transform: scale(1); }
-}
-        /* Добавление плавности для всех элементов */
-* {
-    transition: all 0.3s ease;
-}
-        body {
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 20px;
-    }
- .container {
-        padding: 10px;
-    }
-}
-@media (max-width: 480px) {
-    .board {
-        grid-template-columns: repeat(9, 50px); /* Ещё большее уменьшение ячеек */
-        gap: 3px;
-    }
-  .hole {
-        width: 50px;
-        height: 50px;
-    }
-h1 {
-        font-size: 1.8em;
-    }
-  .scores {
-        font-size: 14px;
-    }
-}
+        h1 {
+            font-family: 'Tajawal', sans-serif;
+            color: #8B0000; /* Кыргыздын кызыл түсү */
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        .board {
+            display: grid;
+            grid-template-columns: repeat(9, 70px);
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .hole {
+            width: 70px;
+            height: 70px;
+            background-color: #C19A6B; /* Кыргыз боз үйүнүн ички кооздоосундагы түс */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            position: relative;
+            border: 3px solid #8B0000; /* Кыргыз кызыл түсү */
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .hole:hover {
+            background-color: #FFD700; /* Алтын түскө жакын */
+            transform: scale(1.1);
+        }
+        .hole img {
+            width: 45px;
+            height: 45px;
+        }
+        .scores {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #8B0000;
+        }.hole .stones {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            font-size: 14px;
+            background-color: white;
+            border-radius: 50%;
+            padding: 3px 7px;
+            border: 1px solid #ccc;
+        }button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #8B0000; /* Кыргыз кызылы */
+            color: white;
+            border: 2px solid #FFD700; /* Алтын чек */
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background-color: #A52A2A; /* Карамелдүү күрөң түс */
+            transform: scale(1.05);
+        }
+        .history-rules, .creator, .news {
+            width: 80%;
+            margin: 30px auto;
+            text-align: left;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            font-family: 'Tajawal', sans-serif;
+        }
+        .history-rules h2, .creator h2, .news h2 {
+            text-align: center;
+            color: #8B0000;
+            font-family: 'Tajawal', sans-serif;
+        }
+        .difficulty {
+            margin: 20px 0;
+            color: #8B0000;
+        }
+        .container img {
+            margin-top: 15px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translate(-50%, -60%);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
+        }#win-message {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 128, 0, 0.8);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 24px;
+            z-index: 10;
+            animation: fadeIn 1s;
+        }
 </style>
 </head>
 <body>
